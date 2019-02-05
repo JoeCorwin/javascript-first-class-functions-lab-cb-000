@@ -15,7 +15,7 @@ function createMultiplier(multiplierValue,n) {
     var mult = Number(multiplierValue);
     num * mult
   }
-  return ()
+  
 }
 
 
