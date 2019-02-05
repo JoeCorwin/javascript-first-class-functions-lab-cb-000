@@ -10,9 +10,7 @@ function countdown (callback) {
 
 
 function createMultiplier() {
-
-  return function multiplierValue() = {n * multiplierValue}
-
+  return function multHelper(multiplierValue) = {n * multiplierValue}
 }
 
 
