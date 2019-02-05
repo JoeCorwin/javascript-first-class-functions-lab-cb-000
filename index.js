@@ -3,7 +3,10 @@ function countdown (callback) {
 }
 
 function createMultiplier(multiplierValue,n) {
-  return function () = parseInt(n10) * parseInt(multiplierValue,10)
+
+  var num = Number(n);
+  var mult = Number(multiplierValue);
+  return () => num * mult
 }
 
 function multiplier() {
