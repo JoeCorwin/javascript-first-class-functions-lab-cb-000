@@ -3,7 +3,7 @@ function countdown (callback) {
 }
 
 function createMultiplier(multiplierValue,n) {
-  return () => parseint(n) * parseint(multiplierValue)
+  return () => parseInt(n) * parseInt(multiplierValue)
 }
 
 function multiplier() {
