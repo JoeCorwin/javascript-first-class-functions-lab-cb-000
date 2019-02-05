@@ -8,6 +8,18 @@ function createMultiplier(multiplierValue,n) {
   return () => num * mult
 }
 
+
+function createMultiplier(multiplierValue,n) {
+  () => {
+    var num = Number(n);
+    var mult = Number(multiplierValue);
+    num * mult
+  }
+  return ()
+}
+
+
+
 function multiplier() {
 
 
