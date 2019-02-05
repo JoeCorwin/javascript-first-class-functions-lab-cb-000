@@ -9,7 +9,7 @@ function countdown (callback) {
 // }
 
 
-function createMultiplier(multiplierValue, n) {
+function createMultiplier(multiplierValue; n) {
   return () => {
     var num = Number(n);
     var mult = Number(multiplierValue);
