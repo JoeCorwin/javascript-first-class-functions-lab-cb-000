@@ -3,7 +3,7 @@ function countdown (callback) {
 }
 
 function createMultiplier(multiplierValue,n) {
-  function multResut() {n * multiplierValue}
+  return multResut() {n * multiplierValue}
 
 }
 
