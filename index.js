@@ -8,6 +8,12 @@ function createMultiplier(multiplierValue) {
   }
 }
 
+var doubler = createMultiplier(multiplierValue) {
+  return 2 * multiplierValue
+}
+
+// var tripler =
+
 
 
 
