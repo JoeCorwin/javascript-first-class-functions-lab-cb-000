@@ -14,7 +14,7 @@ var tripler = createMultiplier(3);
 
 
 
-function multiplier(n,i) {
-return n*i
+function multiplier(n1, n2) {
+return n * i
 
 }
