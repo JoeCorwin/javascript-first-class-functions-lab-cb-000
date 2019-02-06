@@ -3,7 +3,9 @@ function countdown (callback) {
 }
 
 function createMultiplier(multiplierValue) {
-  return () => {n * multiplierValue}
+  return (n) => {
+    var num = Number(n)
+    num * multiplierValue}
 }
 
 
