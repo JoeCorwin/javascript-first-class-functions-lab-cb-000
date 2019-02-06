@@ -4,8 +4,8 @@ function countdown (callback) {
 
 function createMultiplier(multiplierValue) {
   return (n) => {
-    var num = Number(n)
-    num * multiplierValue}
+    return n * multiplierValue
+  }
 }
 
 
