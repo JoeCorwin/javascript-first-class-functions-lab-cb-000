@@ -12,8 +12,8 @@ var doubler = createMultiplier(2);
 var tripler = createMultiplier(3);
 
 
-function multiplier(n1, n2) {
-  return n * i
+function multiplier(mv, v) {
+  return mv * v
 }
 
 var doublerWithBind = multiplier.bind(null, 2)
